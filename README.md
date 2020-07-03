@@ -15,4 +15,4 @@ This dataset contains one million observations, and variables included are:
  -  distance: number of miles away from major city
  -  salary (target): posted salary in a job posting
   
-Although the data is relatively clean, I deleted 5 observations becasue salary is listed 0. I kept the outliers because less than 1% of data points. 
+Although the data is relatively clean, I deleted 5 observations becasue salary are listed 0. Also, I kept the outliers because less than 1% of data points. 
