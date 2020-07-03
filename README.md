@@ -60,7 +60,7 @@ The summarized MSE are 3 models are as follow:
 | Baseline  | 1499.017 |
 | Linear Regression  | 384.444  |
 | Decision Tree  | 700.451  |
-| Gradient Boosting  | 0.013  |
+| Gradient Boosting  | 356.910  |
 
 
 
