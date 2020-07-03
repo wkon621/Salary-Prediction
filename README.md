@@ -63,7 +63,9 @@ The summarized MSE are 3 models are as follow:
 | Gradient Boosting  | 356.910  |
 
 
+Finally, features are outputed graphically to help visualizae what variables play an important role in predicitng salaries of a given job. 
 
+![](images/FeatureImportance.png)
 
 ## Conclusion
 
