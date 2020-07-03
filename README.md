@@ -15,7 +15,7 @@ This dataset contains one million observations, and variables included are:
  -  distance: number of miles away from major city
  -  salary (target): posted salary in a job posting
   
-Although the data is relatively clean, I deleted 5 observations becasue salary are listed 0. Also, I kept the outliers because less than 1% of data points. 
+Although the data is relatively clean, I deleted 5 observations becasue salary are listed 0. Also, I kept the outliers because it only account for less than 1% of data points. 
 
 
 ## Exploratory Data Analysis
@@ -45,3 +45,26 @@ Finally, I examined the relationship between other numerical independent variabl
 ![](images/Distance_vs_Salary.png)
 ![](images/Experience_vs_Salary.png)
 
+## Model Development 
+
+Because this is a regression problem with the dependent variable being a continuous one, MSE is a simple and fitting choice to use it as a metric for my model. I used the difference from average salary as my baseline model to gauge the performance of different machine learning models. The three implemnted machine learning models to improve MSE are as follow:
+
+- Linear Regression: our data follows a linear shape according to the EDA
+- Decision Trees: DT is a basic and fast approach for modeling, and performs well with linear relationships problems
+- Gradient Boosting: Given a regression problem, gradient boosting offers great way for weak learners to improve their performance, and is often used to minimize the MSE
+
+The summarized MSE are 3 models are as follow:
+
+| Model  | MSE |
+| ------------- | ------------- |
+| Baseline  | 1499.017 |
+| Linear Regression  | 384.444  |
+| Decision Tree  | 700.451  |
+| Gradient Boosting  | 0.013  |
+
+
+
+
+## Conclusion
+
+I have developed a model that can predict future salaries of job postings based on salaries of current job postings. After performing the exploratory data analysis, I developed three models and compared their mean squared errors to measure the performance. against the baseline model. Gradient boosting model  performs the best with the train data. I used the model to predict the salary of test data, and saved the results of the prediction in a csv file. I also included the analysis of feature importances, and saved it in a separate csv file.
