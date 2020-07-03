@@ -67,4 +67,4 @@ The summarized MSE are 3 models are as follow:
 
 ## Conclusion
 
-I have developed a model that can predict future salaries of job postings based on salaries of current job postings. After performing the exploratory data analysis, I developed three models and compared their mean squared errors to measure the performance. against the baseline model. Gradient boosting model  performs the best with the train data. I used the model to predict the salary of test data, and saved the results of the prediction in a csv file. I also included the analysis of feature importances, and saved it in a separate csv file.
+I have developed a model that can predict future salaries of job postings based on salaries of current job postings. After performing the exploratory data analysis, I developed three models and compared their mean squared errors to measure the performance against the baseline model. Gradient boosting model performs the best with the training data. I used the model to predict the salary on testing data, and saved the results of the prediction in a csv file. I also included the analysis of feature importances, and saved it in a separate csv file.
