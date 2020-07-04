@@ -53,7 +53,7 @@ Because this is a regression problem with the dependent variable being a continu
 - Decision Trees: DT is a basic and fast approach for modeling, and performs well with linear relationships problems
 - Gradient Boosting: Given a regression problem, gradient boosting offers great way for weak learners to improve their performance, and is often used to minimize the MSE
 
-The summarized MSE are 3 models are as follow:
+The Gradient Boosting model performs the best and summarized MSE for 3 models are as follow:
 
 | Model  | MSE |
 | ------------- | ------------- |
